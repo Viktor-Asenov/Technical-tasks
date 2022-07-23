@@ -15,7 +15,7 @@ namespace NetSalary
         /// </summary>
         internal static void Main()
         {
-            Console.WriteLine("Enter your gross salary:");
+            Console.WriteLine("Please enter your gross salary:");
 
             var input = decimal.Parse(Console.ReadLine());
             var message = "Your net salary is:";
